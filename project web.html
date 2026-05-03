@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Books That Stay With You</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #f5efe6, #e8dfd4);
+        text-align: center;
+    }
+
+    h1 {
+        margin-top: 40px;
+    }
+
+    .btn {
+        margin: 40px auto;
+        padding: 15px 30px;
+        background-color: #6b4f3b;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background-color: #3e2c20;
+        transform: scale(1.05);
+    }
+
+    .books {
+        max-width: 900px;
+        margin: auto;
+        display: none;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        background: #87ceeb;
+        color: black;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        transition: 0.3s;
+    }
+
+    .card img{
+        width: 100%;
+        height: 320px;
+        object-fit: contain;
+        background: #fff;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    /* الروابط */
+    .links {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .links a {
+        margin: 0 10px;
+        color: #3e2c20;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .links a:hover {
+        text-decoration: underline;
+    }
+
+</style>
+</head>
+
+<body>
+
+<h1>Books That Stay With You</h1>
+
+<p style="margin-top:10px; font-size:18px; color:#6b4f3b;">
+Refal
+</p>
+
+<p style="font-size:14px; color:#6b4f3b;">
+s202201874.uoh.edu.sa
+</p>
+
+<!-- الروابط في الصفحة الأولى -->
+<div class="links">
+    <a href="https://www.jarir.com" target="_blank">Jarir Bookstore</a>
+    <a href="https://www.goodreads.com" target="_blank">Goodreads</a>
+</div>
+
+<button class="btn" onclick="showBooks()">Discover Books</button>
+
+<div class="books" id="bookSection">
+
+<div class="card">
+    <img src="S.jpg">
+    <h3>مكتبة ساحة الأعشاب</h3>
+    <p>تبدأ الحكاية بانتقال ناتالي وعائلتها إلى قرية ريفية هادئة حيث تفتتح مكتبة مقابل ساحة أعشاب , يأخذنا الكتاب من خلال هذه المكتبة إلى مواقف وقصص عاشها زوارها.</p>
+    <p>قُلْ لي ماذا تقرأ، أقُلْ لكَ مَن أنت..</p>
+</div>
+
+<div class="card">
+<img src="ba.jpg">
+    <h3>بساتين عربستان (سلسلة)</h3>
+
+  <ul>
+      <li>عصبة الشياطين</li>
+      <li>رياح هجر</li>
+      <li>العرجاء</li>
+      <li>الساحرة الهجينة</li>
+      <li>عرين الأسد</li>
+  </ul>
+   <p>بعد فرعون موسى و خاتم سليمان وقبل عيسى و سيد الأنام قبل الإسلام وقبل تاريخه و قبل النور و الصراط المستقيم قصة لم يدونها التاريخ لكنها نقلت بالأثر من قاص لآخر .. سأدونها بين ورق بالكاد سيحتويها .. واتركها لاختبار الزمن .. </p>
+</div>
+
+<div class="card">
+<img src="v.jpg">
+    <h3>متلازمة فيرجولي (سلسلة)</h3>
+  <ul>
+    <li>حقل التفاح.</li>
+  </ul>
+    <p>نادر هو أخصائي نفسي يضطر بسبب ظروف الحياة الصعبة إلى تولي حالة مراهق يعاني من متلازمة فريجولي وهي واحدة من أندر وأغرب الاضطرابات النفسية. يبدأ نادر عمله الجديد منتحلاً هوية طبيب نفسي آخر، مما يزيد من تعقيد موقفه في اليوم الأول من عمله، يواجه نادر تحديات كبيرة عندما يكتشف أن لا أحد من المحيطين بالفتى يرغب في مساعدته أو شفائه، سواء كان ذلك من قبل المستشفى أو عائلته أو حتى من نادر نفسه. تتوالى الأحداث في إطار من التوتر النفسي والإحباط، مما يدفع نادر إلى التفكير في دوره كأخصائي نفسي والضغوط التي يواجهها في سبيل تقديم العون للشاب في محنته. تتناول القصة قضايا معقدة تتعلق بالصحة النفسية والاهتمام الحقيقي بالمرضى، مما يجعلها تجربة مؤثرة تثير التساؤلات حول المسؤولية والأخلاق في مجال الرعاية النفسية. </p>
+</div>
+
+<div class="card">
+<img src="w.jpg">
+    <h3>واختفى كل شي</h3>
+    <p>رواية بوليسية غامضة لأجاثا كريستي تتناول سلسلة من الجرائم الغامضة على جزيرة نائية، حيث يُقتل الضيوف واحدًا تلو الآخر وفقًا لأغنية الأطفال</p>
+</div>
+
+<div class="card">
+<img src="A.jpg">
+    <h3>عداء الطائرة الورقية</h3>
+  <p>تروى القصة من خلال شخصية أمير، الذي تنشأ بينه وبين حسن صداقة في كابول، رغم الفوارق الطبقية بينهما؛ فأمير هو ابن رجل أعمال ثري، وحسن ابن خادمهم من قبيلة الهزارة. يقضيان أيامهما في مطاردة الطائرات الورقية، وتبدأ الأحداث من أواخر الحكم الملكي في أفغانستان وحتى صعود حركة طالبان..</p>
+</div>
+
+<div class="card">
+<img src="b.jpg">
+    <h3>كل أزرق السماء - ميليسا دا كوستا</h3>
+      <p>تحكي رحلة إيميل، شاب مصاب بمرض الزهايمر المبكر، في بحثه عن معنى الحياة والحب والحرية وسط مواجهة الفناء والمرض.</p>
+</div>
+
+</div>
+
+<script>
+function showBooks() {
+    var section = document.getElementById("bookSection");
+
+    if (section.style.display === "grid") {
+        section.style.display = "none";
+    } else {
+        section.style.display = "grid";
+    }
+}
+</script>
+
+</body>
+</html>
